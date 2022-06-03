@@ -1,0 +1,77 @@
+.recipe__details {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   .recipe__details--wrapper {
+      max-width: 80%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 10px;
+      padding: 10px;
+      @media only screen and (max-width: 1023px){
+         max-width: 90%;
+      }
+      @media only screen and (max-width: 600px){
+         max-width: 98%;
+         padding-top: 20px;
+         padding-bottom: 20px;
+      }
+      @media only screen and (max-width: 425px){
+   
+      }
+      .recipe__details--container {
+         display: flex;
+         flex-direction: row;
+         justify-content: space-between;
+         margin-bottom: 40px;
+         @media only screen and (max-width: 600px){
+            margin-bottom: 10px;
+            flex-direction: column;
+         }
+      }
+      h6 {
+         max-width: 45%;
+         width: 100%;
+         margin-bottom: 40px;
+         font-size: 30px;
+         color: purple;
+         font-style: italic;
+         @media only screen and (max-width: 600px){
+            margin-bottom: 10px;
+            font-size: 20px;
+            max-width: 100%;
+            margin-top: 20px;
+
+         }
+      }
+      img {
+         max-width: 50%;
+         width: 100%;
+         border-radius: 10px;
+         @media only screen and (max-width: 600px){
+            max-width: 100%;
+         }
+      }
+      a {
+         margin-top: 20px;
+         color: purple;
+         cursor: pointer;
+      }
+      p + p {
+         padding-top: 20px;
+         font-style: italic;
+         text-decoration: underline;
+      }
+      p {
+         color: purple;
+         font-weight: 400;
+         @media only screen and (max-width: 600px){
+            font-size: 16px;
+         }
+      }
+   }
+}

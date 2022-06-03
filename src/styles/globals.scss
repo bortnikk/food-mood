@@ -1,0 +1,49 @@
+@import './navbar.scss';
+@import './popular.scss';
+@import './vegeterian.scss';
+@import './todaysFavorite.scss';
+@import './searched.scss';
+@import './Cuisine.scss';
+@import './recipeDetails.scss';
+
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   font-family: 'Montserrat',sans-serif;
+   font-size:20px;
+   color: #fff;
+}
+
+body {
+   margin: 0px auto;
+   background: linear-gradient(to right, skyblue -50%, purple  150%);
+   // background: #000;
+   width: 100%;
+   height: 100vh;
+}
+
+.home {
+   display: flex;
+   flex-direction: column;
+   flex-wrap: wrap;
+}
+
+.error {
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   padding-top: 40px;
+   padding-bottom: 40px;
+   .error--wrapper {
+      max-width: 80%;
+      width: 100%;
+      h5{
+         font-size: 50px;
+      }
+      span {
+         color: purple;
+         font-weight: 600;
+      }
+   }
+}
