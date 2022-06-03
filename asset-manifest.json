@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/food-mood/static/css/main.a9b5bc61.css",
+    "main.js": "/food-mood/static/js/main.eec530dc.js",
+    "index.html": "/food-mood/index.html",
+    "main.a9b5bc61.css.map": "/food-mood/static/css/main.a9b5bc61.css.map",
+    "main.eec530dc.js.map": "/food-mood/static/js/main.eec530dc.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a9b5bc61.css",
+    "static/js/main.eec530dc.js"
+  ]
+}
